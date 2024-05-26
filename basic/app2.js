@@ -1,3 +1,4 @@
+/* File operation synchronously */
 const readline = require('readline');
 const fs = require('fs');
 let text = fs.readFileSync('./Files/input.txt', 'utf-8');
