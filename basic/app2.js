@@ -8,3 +8,4 @@ let text1 = `Content of the file: ${text} on ${new Date()}`;
 fs.writeFileSync('./Files/output.txt', text);
 
 console.log(text);
+console.log("Hello")
